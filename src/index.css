@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+  margin: 50px auto 50px auto;
+}
+
+.render-container {
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  height: 90vh;
+  width: 60%;
+  margin: 100px auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.formContainer {
+  width: 60%;
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.formInput {
+  flex: 85%;
+  width: 100%;
+  padding: 20px;
+  font-size: 1.2rem;
+  border: 3px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.formInput:focus {
+  outline: none !important;
+  border: 1px solid #3e81ba;
+  color: gray;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #3e81ba;
+}
+
+.formInput::placeholder {
+  font-weight: bold;
+}
+
+.addBtn {
+  flex: 15%;
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+  outline: none !important;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #49a019;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
+
+.renderContainer {
+  width: 60%;
+  margin: 50px auto 50px auto;
+}
+
+li {
+  flex: 93%;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 4px;
+  margin: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 5px;
+}
+
+li::first-letter {
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+}
+
+.checkTodo {
+  flex: 2%;
+  width: 25px;
+  height: 25px;
+  margin: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.childUl {
+  width: 95%;
+  margin-left: auto;
+}
+
+.renderSubContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionContainer > button {
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+.fa {
+  margin: auto 5px auto 5px;
+  cursor: pointer;
+}
+
+.fa-edit {
+  color: #28a745;
+}
+
+.fa-trash {
+  color: #dc3545;
+}
+
+.checkLi {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.unCheckLi {
+  text-decoration: none;
+  opacity: 1;
+}
